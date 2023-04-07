@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "auto-006"
+version = "0.1.0"
+description = ""
+authors = ["LiudmilaDankevich <Dankevich_79@mail.ru>"]
+readme = "README.md"
+packages = [{include = "auto_006"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+l = "^0.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
