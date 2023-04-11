@@ -28,3 +28,8 @@ def say_name(name):
     print(f"Hello {name}")
 
 say_name("Mila")
+import datetime
+bdate = 1980
+current_date = datetime.date.today()
+age = current_date.year - bdate
+print(age)
